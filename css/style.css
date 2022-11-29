@@ -1,0 +1,43 @@
+body{
+    align-items: center;
+    display: flex;
+    height: 600px;
+    justify-content: center
+}
+
+#button-open{
+    background-color: rgb(147, 243, 147);
+    border: none;
+    border-radius: 5px;
+    color: rgb(5, 22, 5);
+    font-size: 1rem;
+    padding: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+
+#button-open:hover{
+    background-color: rgb(5, 22, 5);
+    color: rgb(147, 243, 147) ;
+}
+
+#dialog-open{
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1em black;
+    width: 80%;
+    text-align: center;
+}
+
+#dialog::backdrop{
+    background-color: rgba(48, 46, 46, 0.075);
+}
+
+#button-close{
+    background-color: rgba(255, 101, 101, 0.726);
+    border: none;
+    border-radius: .5rem;
+    color: rgb(85, 3, 3);
+    font-size: .8rem;
+    padding: .9rem;
+}
